@@ -1,8 +1,26 @@
+:root {
+  --font-color: #101212;
+  --body-bg-color: #ffffff;
+}
+
+.dark-mode {
+  --font-color: #cccccc;
+  --body-bg-color: #101212;
+}
+
+body {
+  color: var(--font-color);
+  background-color: var(--body-bg-color);
+}
+
 .navbar {
   margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-items {
   margin: 0 10px 0;
   font-size: 20px;
+  color: var(--font-color);
 }
