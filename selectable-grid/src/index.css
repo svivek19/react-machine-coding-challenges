@@ -1,0 +1,21 @@
+div {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+  background-color: transparent;
+  margin: 10px;
+  border: 1px solid #656565;
+  border-radius: 8px;
+}
+
+.active-cell {
+  background-color: green;
+}
