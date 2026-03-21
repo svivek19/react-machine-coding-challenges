@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "question": "What is React?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A JavaScript library for building UI",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "text": "A database management system",
+        "isCorrect": false
+      },
+      { "id": "c", "text": "A CSS framework", "isCorrect": false },
+      { "id": "d", "text": "A programming language", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is JSX?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A syntax extension for JavaScript",
+        "isCorrect": true
+      },
+      { "id": "b", "text": "A backend framework", "isCorrect": false },
+      { "id": "c", "text": "A database query language", "isCorrect": false },
+      { "id": "d", "text": "A CSS preprocessor", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What hook is used for state in React?",
+    "options": [
+      { "id": "a", "text": "useFetch", "isCorrect": false },
+      { "id": "b", "text": "useState", "isCorrect": true },
+      { "id": "c", "text": "useEffect", "isCorrect": false },
+      { "id": "d", "text": "useContext", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What does useEffect do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Handles side effects in components",
+        "isCorrect": true
+      },
+      { "id": "b", "text": "Manages routing", "isCorrect": false },
+      { "id": "c", "text": "Creates components", "isCorrect": false },
+      { "id": "d", "text": "Styles elements", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is the purpose of keys in React lists?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To uniquely identify elements for efficient updates",
+        "isCorrect": true
+      },
+      { "id": "b", "text": "To style list items", "isCorrect": false },
+      { "id": "c", "text": "To store state", "isCorrect": false },
+      { "id": "d", "text": "To fetch data", "isCorrect": false }
+    ]
+  }
+]
