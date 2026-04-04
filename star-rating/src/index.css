@@ -1,0 +1,26 @@
+.star-container {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+button {
+  background: none;
+  border: none;
+  margin: 5px;
+}
+
+svg {
+  width: 40px;
+  height: 40px;
+}
+
+.star {
+  fill: lightgrey;
+  transition: fill 0.2s;
+}
+
+.star.active {
+  fill: gold;
+}
