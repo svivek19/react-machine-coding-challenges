@@ -1,0 +1,30 @@
+body {
+  padding: 10px;
+}
+
+input {
+  width: 300px;
+  padding: 5px;
+}
+
+p {
+  color: red;
+}
+
+.res-container {
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 5px;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.res {
+  display: block;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.res:hover {
+  background-color: #f0f0f0;
+}
